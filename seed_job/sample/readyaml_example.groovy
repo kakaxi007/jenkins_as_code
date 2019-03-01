@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 node('master'){
     stage('CheckOut'){
-        checkout([$class: 'GitSCM', branches: [[name: 'feature/refactor']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/SmilentRhino/jenkins_as_code.git']]])
+        checkout([$class: 'GitSCM', branches: [[name: 'feature/refactor']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/kakaxi007/jenkins_as_code.git']]])
     }
 
     stage("Print") {

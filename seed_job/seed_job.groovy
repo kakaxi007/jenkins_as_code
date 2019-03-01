@@ -25,7 +25,7 @@ job('create_user') {
     scm {
         git {
             remote {
-                url('https://github.com/SmilentRhino/jenkins_as_code.git')
+                url('https://github.com/kakaxi007/jenkins_as_code.git')
             }
             branch('feature/refactor')
         }
@@ -41,7 +41,7 @@ job('add_nodes') {
     scm {
         git {
             remote {
-                url('https://github.com/SmilentRhino/jenkins_as_code.git')
+                url('https://github.com/kakaxi007/jenkins_as_code.git')
             }
             branch('feature/refactor')
         }
@@ -55,7 +55,7 @@ job('set_auth_strategy') {
     scm {
         git {
             remote {
-                url('https://github.com/SmilentRhino/jenkins_as_code.git')
+                url('https://github.com/kakaxi007/jenkins_as_code.git')
             }
             branch('feature/refactor')
         }
@@ -70,7 +70,7 @@ job('set_crowd2') {
     scm {
         git {
             remote {
-                url('https://github.com/SmilentRhino/jenkins_as_code.git')
+                url('https://github.com/kakaxi007/jenkins_as_code.git')
             }
             branch('feature/refactor')
         }
@@ -86,7 +86,7 @@ job('install_plugins') {
     scm {
         git {
             remote {
-                url('https://github.com/SmilentRhino/jenkins_as_code.git')
+                url('https://github.com/kakaxi007/jenkins_as_code.git')
             }
             branch('feature/refactor')
         }
@@ -101,7 +101,7 @@ job('add_credentials') {
     scm {
         git {
             remote {
-                url('https://github.com/SmilentRhino/jenkins_as_code.git')
+                url('https://github.com/kakaxi007/jenkins_as_code.git')
             }
             branch('feature/refactor')
         }

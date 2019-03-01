@@ -10,7 +10,7 @@ def get_server_instance():
     Get jenkins server obj
     '''
     jenkins_url = 'http://jenkins.alexrhino.net:8080'
-    server = Jenkins(jenkins_url, username='smilentrhino', password='IWontTellU')
+    server = Jenkins(jenkins_url, username='kakaxi007', password='IWontTellU')
     return server
 
 def get_plugin_details():
