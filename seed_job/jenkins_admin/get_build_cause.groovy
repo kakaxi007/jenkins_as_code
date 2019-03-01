@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 node('CD'){
     stage("clone") {
-        git url: 'https://github.com/SmilentRhino/jenkins_test.git'
+        git url: 'https://github.com/kakaxi007/jenkins_test.git'
         echo 'Cloning...'
     }
     stage('Get build Cause') {

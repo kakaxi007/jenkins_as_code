@@ -1,6 +1,6 @@
 node('master'){
     stage('Checkout'){
-        git branch: 'feature/refactor', url: 'https://github.com/SmilentRhino/jenkins_as_code.git'
+        git branch: 'feature/refactor', url: 'https://github.com/kakaxi007/jenkins_as_code.git'
     }
     stage('UpdateSeedDSL') {
             echo 'Go go go'

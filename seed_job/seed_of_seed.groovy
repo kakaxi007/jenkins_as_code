@@ -3,7 +3,7 @@ job('seed_dsl') {
         scm {
             git {
                 remote {
-                    url('https://github.com/SmilentRhino/jenkins_as_code.git')
+                    url('https://github.com/kakaxi007/jenkins_as_code.git')
                 }
                 branch('feature/refactor')
             }
