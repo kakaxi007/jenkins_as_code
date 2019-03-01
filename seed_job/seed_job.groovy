@@ -8,6 +8,14 @@ pipelineJob('simple_pipeline_job') {
 }
 
 job('list_plugins') {
+    scm {
+        git {
+            remote {
+                url('https://github.com/kakaxi007/jenkins_as_code.git')
+            }
+            branch('feature/refactor')
+        }
+    }
     steps {
         systemGroovyCommand(readFileFromWorkspace('seed_job/jenkins_admin/list_plugins.groovy')) {
         }
